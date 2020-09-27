@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Card {
+    width: 20%;
+}
+
+.Card, img {
+    width: 200px;
+    height: 200px;
+}
